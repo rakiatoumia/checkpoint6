@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/3338f68703.js" crossorigin="anonymous"></script>
+    <link
+      rel="shortcut icon"
+      href="./images/shopping-cart-icon.png"
+    />
+
+    <title>Shopping Cart</title>
+  </head>
+
+  <!-----------header-------------------->
+
+  
+    <div class="header-top">
+    <div class="header-top-content">
+      <select>
+        <option>TUNISIA</option>
+                          <option >Monastir</option>
+                          <option>Sousse</option>
+                          <option>kairouane</option>
+                          <option>Beja</option>
+                          <option>Tataouine</option>
+                          <option>Mahdia</option>
+                          <option>Nabeul</option>
+                          <option>Bizerte</option>
+                          <option>Tunis</option>
+                          <option>Sfax</option>
+                          <option>Sidi bouzid</option>
+                          <option>Gabes</option>
+       </select>
+    </div>
+    </div>
+    
+    <header class="header">
+    <nav class="navbar">
+      <a href="#" class="nav-logo">
+       
+        <img src="./images/logo.png" alt="" class="logo">
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Products</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Contact</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+<div class="header-bottom">
+  <h4 class="left">FREEE DELIVERY </h4>
+  <h4 class="middle">SALE NOW UP TO 50%</h4>
+  <h4 class="right"> FREE RETURNS TO STORE</h4>
+
+</div>
+  <body>
+<!---------------------------product descreption --------------------->
+<h3 class="title">Shopping chart</h3>
+<div class="table">
+  <h4> Product details </h4>
+  <h4>Quantity</h4>
+  <h4>Price</h4>
+  <h4>Total Price </h4>
+
+</div>
+<!---------------------------products --------------------->
+   <div class="main-container">
+    <ul>
+  <div class="products">
+    <div class="product-item">
+    <li class="picture">
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-trash"></i>
+      <img src="./images/1.jpg"alt="image1">
+      <div class="picture-descr">
+       <div class="quantity">
+       <span class="btn-moins">-</span>
+    <button class="cart-button">
+      <input type="text" class="quantity_input" value="1">
+    </button>
+    <span class="btn-plus">+</span>
+  </div>
+
+  <div class="price">€10.00</div>
+  <div class="total">€10.00 </div>
+</div>  
+    </li>
+  </div>
+  <div class="product-item">
+    <li class="picture">
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-trash"></i>
+      <img src="./images/2.jpg" alt="image2">
+      <div class="picture-descr">
+        <div class="quantity">
+          <span class="btn-moins">-</span>
+       <button class="cart-button">
+         <input type="text" class="quantity_input" value="1">
+       </button>
+       <span class="btn-plus">+</span>
+     </div>
+     <div class="price">€20.00</div>
+     <div class="total">€20.00</div>
+       </div>
+    </li>
+  </div> 
+  <div class="product-item">
+    <li class="picture">
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-trash"></i>
+      <img src="images/3.jpg" alt="image3">
+      <div class="picture-descr">
+        <div class="quantity">
+          <span class="btn-moins">-</span>
+       <button class="cart-button">
+        <input type="text" class="quantity_input" value="0">
+      </button>
+       <span class="btn-plus">+</span>
+     </div>
+     <div class="price">€30.00</div>
+     <div class="total">€30.00</div>
+       </div>
+    </li>
+  </div>
+
+
+  <div class="summary-order">
+    <h4>Order Summary</h4>
+
+    <h5 class="shipping" >Shipping Costs €5.00 </h5>
+<div class="final_price">
+  <h5 class="total-cost">Total Cost</h5>
+  <div class="total_costs"> €0.00</div>
+</div>
+
+
+    <button class="check" type="text">Checkout</button>
+
+  </div>
+</ul>
+
+</div>
+    <script src="./main.js"></script>
+  </body>
+  <footer>
+<div class="footer-content">
+    <h1>Sign up to our Newsletter and you'll get weekly offers sent to your email.</h1>
+    <div class="form">
+      <input type="email" id="lname" name="lname" value="Your Adress mail"><br><br>
+      <button type="button">Submit</button>
+
+    </div>
+  </div>
+  </footer>
+</html>
