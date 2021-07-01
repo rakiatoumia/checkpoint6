@@ -40,7 +40,12 @@ for (let i=0;i<btn_moins.length;i++)
 {
   
     btn_moins[i].addEventListener('click',function(){
+        if (quantity[i].value>0)
+{
     quantity[i].value--; 
+}
+else { quantity[i].value= 0}
+   
     updatetot(price[i],quantity[i],total[i]);
 
 })
@@ -55,8 +60,8 @@ for (let i=0; i<remove.length ;i++)
     {
         var buttonClicked = event.target
         buttonClicked.parentElement.parentElement.remove()
-        updatetot(price[i],quantity[i],total[i]);
     })
+    updatetot(price[i],quantity[i],total[i]);
 }
 
 /*******fonction mettant a jour leprix total dechaque article *********/
